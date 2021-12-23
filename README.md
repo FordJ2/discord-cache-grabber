@@ -1,7 +1,5 @@
-# Discord-cache-grabber
+# Discord cache grabber
 An easy way to see all current and deleted pictures, videos and profile pictures
 
-All discord files, deleted or not, are saved in `%appdata%\discord\cache` however are saved as `.file`, making them completely unviewable.
-Changing the file extention by hand of however many thousands of files, (a) doesnt work without command promt, and (b) can be a pain in the butt.
-
-This short `.bat` file converts all those images into `.png`, as well as open up your file explorer browser right into the directory.
+***All*** files seen in your Discord gui are saved in `%appdata%\discord\cache` as unviewable files.
+My `.bat` script makes everything viewable in a `.png` format. By removing some of the comments, it can be automated even farther by refreshing the page every `N` seconds (default `600s` = `10m`).
